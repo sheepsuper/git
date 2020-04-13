@@ -1,5 +1,9 @@
 # 工作中遇到的git操作问题
 
+## 生成ssh-key
+- `ssh-keygen` 一路回车
+- `cat ~/.ssh/id_rsa.pub` 进入到文件，显示ssh-key内容
+
 ### 常用命令
 - 从远程仓库拉取master分支代码 先clone远程仓库master分支
 `git clone 远程仓库地址`
